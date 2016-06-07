@@ -25,6 +25,14 @@
  * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id: Log.php 23783 2011-03-01 21:47:35Z intiilapa $
+ * @method void emerg(string $message)
+ * @method void alert(string $message)
+ * @method void crit(string $message)
+ * @method void err(string $message)
+ * @method void warn(string $message)
+ * @method void notice(string $message)
+ * @method void info(string $message)
+ * @method void debug(string $message)
  */
 class Zend_Log
 {
