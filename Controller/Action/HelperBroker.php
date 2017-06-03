@@ -36,6 +36,8 @@ require_once 'Zend/Loader.php';
  * @subpackage Zend_Controller_Action
  * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @property Zend_Controller_Action_Helper_ViewRenderer viewRenderer
+ * @property Zend_Layout layout
  */
 class Zend_Controller_Action_HelperBroker
 {
